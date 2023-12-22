@@ -9,6 +9,7 @@ json_file_path = "CommentsTestData.json"
 with open(json_file_path, 'r') as file:
     post_comments_with_labels = json.load(file)
 
+## dit is een test commmit.
 
 class NaiveBayesClassifier:
     def __init__(self, samples):
